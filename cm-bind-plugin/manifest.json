@@ -1,0 +1,15 @@
+{
+  "name": "CM Token 绑定",
+  "id": "cm-bind-plugin",
+  "api": "2.0.0",
+  "editorType": ["pixso"],
+  "main": "./main.js",
+  "ui": "./ui.html",
+  "menu": [
+    { "name": "最小测试（建变量→建矩形→绑定）", "command": "minimal" },
+    { "name": "执行远程脚本", "command": "remote" },
+    { "name": "执行绑定（完整流程）", "command": "bind" },
+    { "name": "仅清理悬空别名", "command": "clean" },
+    { "name": "查看统计（只读）", "command": "status" }
+  ]
+}
